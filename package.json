@@ -1,0 +1,20 @@
+{
+  "name": "node_course_net_ninja",
+  "version": "1.0.0",
+  "description": "net ninja course for learning basics of Node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladoMilicic/node-netNinja-excersise.git"
+  },
+  "author": "Vlado Miličić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladoMilicic/node-netNinja-excersise/issues"
+  },
+  "homepage": "https://github.com/VladoMilicic/node-netNinja-excersise#readme"
+}

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/VladoMilicic/node-netNinja-excersise/issues"
   },
-  "homepage": "https://github.com/VladoMilicic/node-netNinja-excersise#readme"
+  "homepage": "https://github.com/VladoMilicic/node-netNinja-excersise#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

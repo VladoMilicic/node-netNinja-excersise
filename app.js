@@ -6,7 +6,7 @@ const { json } = require('express');
 const app = express();
 
 //connect to mongo db
-const dbURI = 'mongodb+srv://vlado:password1234@cluster0.adfdnbe.mongodb.net/node-tutorial?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://vlado:<password>@cluster0.adfdnbe.mongodb.net/node-tutorial?retryWrites=true&w=majority'
 mongoose.connect(dbURI).then((result) => {
     app.listen(3008);
     console.log("connected to DB")
